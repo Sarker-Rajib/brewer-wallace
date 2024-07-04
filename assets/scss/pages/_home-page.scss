@@ -1,0 +1,18 @@
+@use '../abstracts/variables';
+
+.home-page {
+    .banner {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        @media (min-width: 1200px) {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+    }
+  // blog section start
+  .blog {
+    padding: 80px 0;
+    background-color: #F5F5F5;
+  }
+  //End of blog section
+}

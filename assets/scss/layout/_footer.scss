@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 80px;
+  background-color: #1B3468;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+  
+  .footer-menu {
+    .menu-heading-title {
+      font-size: 1rem;
+    }
+    .nav-link {
+      transition: all 0.2s linear;
+      opacity: 0.8;
+      @media (min-width: 767px) {
+        padding-block: 0.25rem;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .copyright {
+    padding: 0 0 10px 0;
+
+    .social-nav {
+      display: flex;
+      justify-content: center;
+
+      a {
+        padding: 7px;
+        display: inline-block;
+
+        img {
+          width: 75%;
+        }
+      }
+    }
+  }
+}

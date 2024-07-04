@@ -1,0 +1,49 @@
+.family-mediation {
+    padding: 80px 0;
+
+    @media (max-width:991px) {
+        padding: 60px 0;
+    }
+
+    .item {
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        min-height: 150px;
+
+        .number {
+            background: #1B3468;
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            font-size: 20px;
+            font-weight: 500;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        p {
+            padding-top: 10px;
+            font-size: 20px;
+            font-weight: 500;
+
+            @media (max-width:767px) {
+                font-size: 18px;
+            }
+        }
+
+        &:hover {
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+
+            .number {
+                background: #B8994B;
+            }
+        }
+    }
+}

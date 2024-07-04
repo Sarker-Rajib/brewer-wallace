@@ -1,0 +1,15 @@
+.banner {
+    h1 {
+        font-weight: 700;
+        @media (min-width: 992px) {
+            font-size: 44px;
+        }
+        @media (min-width: 1200px) {
+            font-size: 54px;
+        }
+        @media (min-width: 1400px) {
+            font-size: 64px;
+        }
+    }
+
+}

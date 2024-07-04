@@ -1,0 +1,31 @@
+@use '../abstracts/variables';
+.btn {
+    border-radius: 4px;
+}
+
+.primary-button {
+    background-color: variables.$color-secondary; 
+    border: 1px solid  variables.$color-secondary; 
+    color: #fff;
+    font-weight: 600;
+    padding-inline: 1.5rem;
+    padding-block: .75rem;
+    
+    &:hover {
+        background-color: darken(variables.$color-secondary, 10); 
+        color: #fff;
+    }
+}
+
+.primary-outline-button {
+    background-color: #fff; 
+    border: 1px solid  variables.$color-secondary; 
+    color: variables.$color-secondary;
+    font-weight: 600;
+    
+    &:hover {
+        background-color: darken(variables.$color-secondary, 10); 
+        color: #fff;
+    }
+}
+

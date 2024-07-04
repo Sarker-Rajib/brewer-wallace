@@ -1,0 +1,50 @@
+.call-form {
+    padding: 80px 0;
+    background: #F5F5F5;
+
+    @media (max-width:991px) {
+        padding: 60px 0;
+    }
+
+    h4 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    p {
+        font-weight: 400;
+    }
+
+    label {
+        font-weight: 500;
+    }
+
+    .wrapper {
+        min-height: 500px;
+        border-radius: 15px;
+        background: url(../images/calls.png) no-repeat center center/cover;
+        position: relative;
+
+        .text {
+            color: #f5f5f5;
+            background: #1b4895d7;
+            padding: 10px;
+            border-radius: 10px;
+            position: absolute;
+            width: calc(100% - 30px);
+            left: 15px;
+            bottom: 15px;
+
+            h2 {
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            .number {
+                font-weight: 600;
+                color: #B8994B;
+                text-decoration: underline;
+            }
+        }
+    }
+}

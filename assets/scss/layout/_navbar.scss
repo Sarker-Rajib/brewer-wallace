@@ -1,0 +1,45 @@
+@use '../abstracts/variables';
+
+
+.navbar-expand-xl{
+    .navbar-brand {
+        @media (max-width: 767px) {
+         max-width: 150px;
+        }
+    }
+    
+    .navbar-nav {
+        position: static;
+        z-index: 1;
+       .nav-link {
+           color: variables.$color-text-primary;
+           display: inline-block;
+    
+           @media (min-width: 1400px) {
+            padding-block: 0.5rem;
+            padding-inline: 1rem;
+           }
+    
+           &.active {
+            color: variables.$color-primary;
+            text-decoration: underline;
+           }
+    
+           &:hover {
+            color: variables.$color-primary;
+           }
+        }
+
+
+        @media (min-width: 992px) {
+         .megamenu {
+             &:hover > .dropdown-menu {
+                 display: block;
+                 top: 100%;
+                 left: 0;
+             }
+         }
+        }
+   } 
+}
+
